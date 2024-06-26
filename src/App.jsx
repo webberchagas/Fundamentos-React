@@ -1,6 +1,8 @@
 import { Header } from './components/Header';
-import styles from './App.module.css';
 import { SideBar } from './components/SideBar';
+import { Post } from './components/Post';
+
+import styles from './App.module.css';
 
 export function App() {
 
@@ -12,7 +14,9 @@ export function App() {
         <SideBar />
         
         <main>
-          posts
+          <Post />
+          <Post />
+
         </main>
       </div>
     </div>
